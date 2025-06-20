@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psychologs Timetree</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="app-title">Psychologs Timetree</h1>
+                <div class="header-controls">
+                    <!-- Date Search Toggle (New) -->
+                    <button class="header-control-btn date-search-toggle" id="dateSearchToggle" aria-label="Open date search calendar">
+                        🗓️
+                    </button>
+                    
+                    <!-- Theme Toggle -->
+                    <button class="header-control-btn theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <span class="theme-icon light-icon">☀️</span>
+                        <span class="theme-icon dark-icon">🌙</span>
+                    </button>
+                    
+                    <!-- Music Player Controls -->
+                    <div class="music-player">
+                        <button class="music-btn" id="prevBtn" aria-label="Previous track">⏮️</button>
+                        <button class="music-btn play-pause" id="playPauseBtn" aria-label="Play/Pause">▶️</button>
+                        <button class="music-btn" id="nextBtn" aria-label="Next track">⏭️</button>
+                        <button class="music-btn" id="muteBtn" aria-label="Mute/Unmute">🔊</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Date Search Calendar (New Element) -->
+    <div id="dateSearchCalendar" class="date-search-calendar">
+        <div class="calendar-header">
+            <button class="calendar-nav-btn" id="prevMonthBtn" aria-label="Previous Month">‹</button>
+            <div class="calendar-display-month" id="calendarDisplayMonth"></div>
+            <button class="calendar-nav-btn" id="nextMonthBtn" aria-label="Next Month">›</button>
+        </div>
+        <div class="calendar-controls">
+            <select id="calendarYearSelect" aria-label="Select Year"></select>
+            <select id="calendarMonthSelect" aria-label="Select Month"></select>
+        </div>
+        <div class="calendar-weekdays">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+        </div>
+        <div class="calendar-days" id="calendarDays"></div>
+        <div class="calendar-footer">
+            <button class="btn btn-primary" id="goToSelectedDateBtn">Go to Date</button>
+            <button class="btn btn-secondary" id="closeCalendarBtn">Close</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <div class="container">
+            <!-- Random Memory Slideshow Section -->
+            <section class="slideshow-section">
+                <h2 class="section-title"></h2>
+                <div class="slideshow-container">
+                    <div class="slideshow-wrapper" id="slideshowWrapper">
+                        <div class="slide active" id="currentSlide">
+                            <div class="slide-image-container">
+                                <img src="" alt="" class="slide-image" id="slideImage" onerror="handleImageError(this)">
+                            </div>
+                            <div class="slide-content">
+                                <h3 class="slide-title" id="slideTitle"></h3>
+                                <p class="slide-date" id="slideDate"></p>
+                                <p class="slide-description" id="slideDescription"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slideshow-indicators" id="slideshowIndicators"></div>
+                </div>
+            </section>
+
+            <!-- Timeline Section -->
+            <section class="timeline-section">
+                <h2 class="section-title">Department Timeline</h2>
+                <div class="timeline-container" id="timelineContainer">
+                    <!-- Timeline items will be dynamically generated -->
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">
+                © 2025 Psychology Department Timeline. 
+                <span class="footer-subtitle">Celebrating memories from January 2023 to May 2025</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Audio Elements -->
+    <audio id="backgroundAudio" preload="metadata" loop>
+        <source src="BGM/M1.mp3" type="audio/mpeg">
+        <source src="./assets/audio/background-1.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Additional audio tracks for playlist -->
+    <audio id="track2" preload="metadata" loop>
+        <source src="BGM/M2.mp3" type="audio/mpeg">
+        <source src="./assets/audio/background-2.ogg" type="audio/ogg">
+    </audio>
+
+    <audio id="track3" preload="metadata" loop>
+        <source src="BGM/M3.mp3" type="audio/mpeg">
+        <source src="./assets/audio/background-3.ogg" type="audio/ogg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
