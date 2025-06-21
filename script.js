@@ -241,6 +241,166 @@ const timelineData = [
     "description": "An official welcoming ceremony and reception for the newly appointed Dean of the Faculty of Psychology.",
     "imageUrl": "./assets/images/dean-welcome.jpg",
     "aspectRatio": "landscape"
+  },
+  {
+    "id": 31,
+    "date": "2026-03-05",
+    "title": "Research Methods Workshop",
+    "description": "An intensive workshop on advanced statistical analysis and research methodologies for graduate students.",
+    "imageUrl": "https://via.placeholder.com/800x500/A0DCB4/ffffff?text=Research+Workshop",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 32,
+    "date": "2026-04-22",
+    "title": "World Autism Awareness Day Event",
+    "description": "A departmental event featuring guest speakers and community discussions to promote autism awareness.",
+    "imageUrl": "assets/images/autism_awareness.jpg",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 33,
+    "date": "2026-06-01",
+    "title": "Graduation Psychology Gala",
+    "description": "A celebratory gala honoring the graduating class of 2026 from the psychology department.",
+    "imageUrl": "https://via.placeholder.com/600x600/DAA06D/ffffff?text=Psych+Gala",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 34,
+    "date": "2026-08-15",
+    "title": "Internship Information Session",
+    "description": "Session detailing available internship opportunities and application processes for upcoming academic year.",
+    "imageUrl": "Photos/new_event_8.png",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 35,
+    "date": "2026-09-10",
+    "title": "Introduction to CBT Seminar",
+    "description": "An introductory seminar on Cognitive Behavioral Therapy led by a renowned clinical psychologist.",
+    "imageUrl": "https://via.placeholder.com/500x700/8B8C89/ffffff?text=CBT+Seminar",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 36,
+    "date": "2026-10-27",
+    "title": "Annual Psychology Quiz Bowl",
+    "description": "Students battled wits in a lively and competitive psychology-themed quiz competition.",
+    "imageUrl": "assets/images/quiz_bowl.jpg",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 37,
+    "date": "2026-12-05",
+    "title": "Stress Management Workshop",
+    "description": "Practical workshop providing students with tools and techniques for effective stress management during exams.",
+    "imageUrl": "https://via.placeholder.com/600x400/94A9FF/ffffff?text=Stress+Mgmt",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 38,
+    "date": "2027-01-18",
+    "title": "Adolescent Psychology Symposium",
+    "description": "A symposium discussing current research and challenges in adolescent development and mental health.",
+    "imageUrl": "Photos/new_event_9.png",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 39,
+    "date": "2027-02-29",
+    "title": "Diversity & Inclusion in Psychology",
+    "description": "A panel discussion exploring the importance of diversity and inclusive practices in psychological research and therapy.",
+    "imageUrl": "https://via.placeholder.com/700x500/CCB5C7/ffffff?text=Diversity+Panel",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 40,
+    "date": "2027-04-12",
+    "title": "Open Day for Prospective Students",
+    "description": "Showcasing department facilities, faculty, and programs to high school students interested in psychology.",
+    "imageUrl": "assets/images/open_day.jpg",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 41,
+    "date": "2027-06-20",
+    "title": "Neuropsychology Guest Speaker",
+    "description": "Dr. Emily Reed delivered an engaging lecture on the neural basis of decision-making.",
+    "imageUrl": "https://via.placeholder.com/800x500/ADD8E6/ffffff?text=Neuropsychology",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 42,
+    "date": "2027-08-01",
+    "title": "Peer Counseling Training Begins",
+    "description": "First session for students undertaking certified training to become peer counselors for the university.",
+    "imageUrl": "Photos/new_event_10.png",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 43,
+    "date": "2027-09-25",
+    "title": "Aging & Cognition Study Launch",
+    "description": "Announcing the kickoff of a major new longitudinal study on cognitive changes in the aging population.",
+    "imageUrl": "https://via.placeholder.com/600x400/F0F8FF/333333?text=Aging+Study",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 44,
+    "date": "2027-11-11",
+    "title": "Veterans Psychology Initiative",
+    "description": "Launching a new program focused on psychological support for military veterans.",
+    "imageUrl": "assets/images/veterans_psych.jpg",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 45,
+    "date": "2027-12-15",
+    "title": "End of Year Faculty Meeting",
+    "description": "A productive meeting reviewing the academic year's achievements and planning for future research.",
+    "imageUrl": "https://via.placeholder.com/700x500/FFEBCD/333333?text=Faculty+Meeting",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 46,
+    "date": "2028-01-09",
+    "title": "Postdoctoral Fellowship Announcement",
+    "description": "New fellowship opportunities for PhD graduates looking to further their research careers.",
+    "imageUrl": "Photos/new_event_11.png",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 47,
+    "date": "2028-03-01",
+    "title": "Positive Psychology Retreat",
+    "description": "An experiential retreat focusing on well-being, resilience, and personal growth techniques.",
+    "imageUrl": "https://via.placeholder.com/600x600/98FB98/333333?text=Positive+Psychology",
+    "aspectRatio": "square"
+  },
+  {
+    "id": 48,
+    "date": "2028-05-22",
+    "title": "Graduate Research Symposium",
+    "description": "Showcasing innovative research by Masters and PhD students across various psychology specializations.",
+    "imageUrl": "assets/images/grad_research.jpg",
+    "aspectRatio": "landscape"
+  },
+  {
+    "id": 49,
+    "date": "2028-07-18",
+    "title": "Summer Leadership Camp",
+    "description": "Psychology students leading and participating in a camp focused on developing leadership skills.",
+    "imageUrl": "https://via.placeholder.com/500x700/FADADD/333333?text=Leadership+Camp",
+    "aspectRatio": "portrait"
+  },
+  {
+    "id": 50,
+    "date": "2028-09-05",
+    "title": "Community Mental Health Day",
+    "description": "Department hosted a free community event offering mental health screenings and educational resources.",
+    "imageUrl": "Photos/new_event_12.png",
+    "aspectRatio": "landscape"
   }
 ];
 
