@@ -1,0 +1,10 @@
+# robots.txt for https://kakarot-bit-art.github.io/FF/
+
+User-agent: *
+Disallow: /
+
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: Bingbot
+Disallow: /
